@@ -6,9 +6,9 @@ GITLEAKS_DIR="$PWD/gitleaks-$GITLEAKS_VERSION"
 GITLEAKS_EXEC="$GITLEAKS_DIR/gitleaks"
 GILTEAKS_ENABLED=$(git config --global user.gitleaks.enable)
 
-echo "GITLEAKS_DIR: ${GITLEAKS_DIR}"
-echo "GITLEAKS_EXEC: ${GITLEAKS_EXEC}"
-echo "GILTEAKS_ENABLED: $GILTEAKS_ENABLED"
+# echo "GITLEAKS_DIR: ${GITLEAKS_DIR}"
+# echo "GITLEAKS_EXEC: ${GITLEAKS_EXEC}"
+# echo "GILTEAKS_ENABLED: $GILTEAKS_ENABLED"
 
 if [ "$GILTEAKS_ENABLED" == false ]; then
   echo "Gitleaks is disabled, skip validation"
