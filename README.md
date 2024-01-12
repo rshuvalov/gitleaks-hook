@@ -13,3 +13,6 @@ Edit git config
 ```
 git config --global -e
 ```
+
+Example:
+![example](assets/example.png)
