@@ -6,7 +6,7 @@ printf "curl https://raw.githubusercontent.com/rshuvalov/gitleaks-hook/main/lib/
 
 Disable gitleaks:
 ```
-git config --global user.gitleaks.enable true
+git config --global user.gitleaks.enable false
 ```
 
 Edit git config
